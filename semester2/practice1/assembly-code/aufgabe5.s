@@ -1,4 +1,4 @@
-	.file	"Termin1Aufgabe1.c"
+	.file	"practice1.c"
 	.global	a
 	.data
 	.align	2
@@ -23,29 +23,29 @@ main:
 	str	fp, [sp, #-4]!
 	add	fp, sp, #0
 	sub	sp, sp, #8
-	
+
 	@ c
 	mov	r3, #3
 	str	r3, [fp, #-8] @ fp 8 weil negativ steigender stack
-	
+
 	@ d
 	mov	r3, #4
 	str	r3, [fp, #-4]
-	
+
 	@ a
 	ldr	r3, .L3
 	ldr	r2, [fp, #-8]
 	str	r2, [r3, #0]
-	
+
 	@ b
 	ldr	r3, .L3+4
 	ldr	r2, [fp, #-4]
 	str	r2, [r3, #0]
-	
+
 	@ return 0
 	mov	r3, #0
 	mov	r0, r3
-	
+
 	add	sp, fp, #0
 	ldmfd	sp!, {fp}
 	bx	lr

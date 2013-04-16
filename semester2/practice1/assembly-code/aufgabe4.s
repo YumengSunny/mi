@@ -1,4 +1,4 @@
- 	.file	"Termin1Aufgabe1.c"
+ 	.file	"practice1.c"
 	.global	a
 	.data
 	.align	2

@@ -1,4 +1,4 @@
- 	.file	"Aufgabe2.c"
+ 	.file	"practice1.c"
 	.text
 	.align	2
 	.global	main
