@@ -1,5 +1,5 @@
 # Quelldatei
-FILE = Termin4Aufgabe1
+FILE = Termin4Aufgabe4
 # Toolchain
 TOOLCHAIN = arm-eb63-elf-
 # Compiler
@@ -38,4 +38,5 @@ clean:
 	rm *.s
 	rm *.elf
 	rm *.rom
+
 
