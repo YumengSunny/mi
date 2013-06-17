@@ -3,11 +3,12 @@
 
 # Source-Navigator and compiled stuff
 *.o
-*.c~
+*.o#
+*~
 *.elf
 0
 SNDB4/
 *.proj
 
-# PDF files 
+# PDF files
 Termin*.pdf
